@@ -14,3 +14,6 @@ Le but du jeu est simple. Vous dirigez un serpent qui croque des pommes. À chaq
 - Attributions des flèches pour déplacer le serpent 
 	
 > Première version -> 05/04
+
+
+![](https://imgur.com/a/Dusda88)
