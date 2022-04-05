@@ -16,4 +16,4 @@ Le but du jeu est simple. Vous dirigez un serpent qui croque des pommes. À chaq
 > Première version -> 05/04
 
 
-![Logo](https://imgur.com/a/Dusda88)
+![Logo](https://imgur.com/a/Dusda88.gif)
