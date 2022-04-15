@@ -25,14 +25,14 @@ snake_speed = 20
 font_style = pygame.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
 
-def Ton_score(score:int)->int:
+def Ton_score(score:int)->int:  # Affichage du score, en haut à gauche
     """
     Affiche le score du Joueur en haut à gauche de l'écran de jeu
     """
     value = score_font.render("Ton score : " + str(score), True, yellow)
     dis.blit(value, [0, 0])
  
-def the_snake(snake_block:int, snake_list:list):
+def the_snake(snake_block:int, snake_list:list):  # Création du serpent 
     """
     Dessine le serpent, snake_head prend en compte la position x et y, l'ajoute à la liste snake_list 
     """
@@ -40,7 +40,7 @@ def the_snake(snake_block:int, snake_list:list):
         pygame.draw.rect(dis, black, [x[0], x[1], snake_block, snake_block])
  
  
-def message(msg:str, color:tuple):
+def message(msg:str, color:tuple):  # Message de fin
     """
     Affiche le message de fin, Game over, propose de rejouer ou de quitter le jeu 
     """
@@ -48,7 +48,7 @@ def message(msg:str, color:tuple):
     dis.blit(mesg, [dis_width / 6, dis_height / 3])
  
  
-def gameLoop():
+def gameLoop():  
     game_over = False
     game_close = False
  
