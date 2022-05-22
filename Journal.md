@@ -15,4 +15,5 @@ Probème résolu, manque de personnalisation.
 
  - Amélioration  
 Serpent personnaliser, Pomme et fond.
+Ajout du meilleur score.
 > J'ai essayé de créer un fond avec Photoshop, décallage de pixels.
