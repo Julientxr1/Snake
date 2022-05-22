@@ -7,5 +7,12 @@ Apprentissage des bases en PyGame, première version du programme.
  - 06/04  
 MVP atteinte, jeu fonctionnel avec les bases de PyGame (Fond bleu, score rouge, Snake noir,...) 
 
- - A faire  
-Personnalisation de l'interface 
+ - 15/05
+Problème avec le placement des pommes, le serpent passe au-dessus sans les manger. 
+
+ - 16/05
+Probème résolu, manque de personnalisation. 
+
+ - Amélioration 
+Serpent personnaliser, Pomme et fond.
+> J'ai essayé de créer un fond avec Photoshop, décallage de pixels.
